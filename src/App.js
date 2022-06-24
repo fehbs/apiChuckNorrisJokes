@@ -2,9 +2,6 @@ import { useEffect, useState } from 'react';
 
 import './App.css';
 
-import * as React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@mui/material/Button';
 
 
 // api: https://api.chucknorris.io/jokes/random
@@ -33,8 +30,10 @@ function App() {
         <img className='App-logo' src='https://cdn.dribbble.com/users/24711/screenshots/1701350/media/36a576751c06d476f6db6ac9250586d1.png?compress=1' alt='img' width='20%'></img>
         <h1>Chuck Norris Jokes Generator</h1>
         <p>{joke}</p>
+     
+
         <button onClick={generateJoke}>Get new joke: 😻 </button>
-        <Button variant="contained"> Olá Mundo</Button>
+        
       </div>
     </div>
   );
