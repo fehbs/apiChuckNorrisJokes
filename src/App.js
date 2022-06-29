@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 
 import './App.css';
 
-
-
 // api: https://api.chucknorris.io/jokes/random
 const API_URL = 'https://api.chucknorris.io/jokes/random';
 
@@ -18,8 +16,7 @@ function App() {
   }
 
   useEffect(() => {
-    generateJoke();
-
+    return;
   }, []);
 
   return (
