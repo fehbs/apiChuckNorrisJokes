@@ -27,6 +27,7 @@
 }
 
 .App-header {
+  max-width: 100%;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -43,6 +44,7 @@ h1 {
 }
 
 .App-p {
+  margin: 0 auto;
   font-size: 1.1em;
   color: #ffffff;
   padding-left: 100px;
@@ -50,7 +52,7 @@ h1 {
 }
 
 button {
-  width: 15%;
+  width: 30%;
   height: 50px;
   font-size: 0.9em;
   font-weight: 550;
