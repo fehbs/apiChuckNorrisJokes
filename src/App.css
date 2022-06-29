@@ -10,11 +10,9 @@
 .App-logo:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-
 }
 
-@keyframes shake {
- 
+@keyframes shake { 
   0%{transform: translate(1px, 1px) rotate(0deg);}
   10%{transform: translate(-1px, -2px) rotate(-1deg);}
   20%{transform: translate(-2px, 0px) rotate(1deg);}
@@ -27,8 +25,6 @@
   90%{transform: translate(1px, 2px) rotate(0deg);}
   100%{transform: translate(1px, -2px) rotate(-1deg);}
 }
-
-
 
 .App-header {
   background-color: #282c34;
@@ -47,8 +43,8 @@ h1 {
 }
 
 .App-p {
-  font-size: 1.5em;
-  color: orangered;
+  font-size: 1.1em;
+  color: #ffffff;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -56,8 +52,9 @@ h1 {
 button {
   width: 15%;
   height: 50px;
-  font-size: 1em;
-  font-weight: 500;
+  font-size: 0.9em;
+  font-weight: 550;
+  border: none;
   border-radius: 0.2em;
   cursor: pointer;
   background-color: #ffffff;
@@ -69,6 +66,7 @@ button:hover {
 
 button:active {
   background-color: rgb(206, 82, 37);
+  color: #ffffff;
 }
 
 
@@ -76,25 +74,3 @@ button:active {
 
 
 
-
-/*
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-    
-  }
-}
-/*
-
-
-
-/*
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/
